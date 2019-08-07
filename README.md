@@ -1,3 +1,5 @@
 # PragmaSpaceShooter
 2D Space Shooter game
-S.a
+
+PRAGMASOFTWARE
+2019
