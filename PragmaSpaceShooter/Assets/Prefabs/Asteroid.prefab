@@ -57,10 +57,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 21a27482b14fc3943b274f665656ad4b, type: 2}
-  - {fileID: 2100000, guid: 5dfef3efe917a3b42b693504e51224ab, type: 2}
-  - {fileID: 2100000, guid: ee01a96ae23c3af4da10780703eff492, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,7 +92,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationAngle: 1.5
   moveSpeed: 1.5
-  minX: -2.65
-  maxX: 2.65
-  minY: -5.6
-  maxY: 5.6

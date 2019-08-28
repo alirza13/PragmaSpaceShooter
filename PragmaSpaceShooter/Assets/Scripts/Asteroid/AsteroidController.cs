@@ -19,7 +19,7 @@ public class AsteroidController : MonoBehaviour
         Move();
     }
 
-    void RandomizeRotationAxis()
+    public void RandomizeRotationAxis()
     {
         Vector3[] axisArray = new Vector3[2] { Vector3.forward, Vector3.back };
         rotationAxis = axisArray[Random.Range(0, axisArray.Length)];

@@ -6,6 +6,7 @@ public class AsteroidPool : MonoBehaviour
 {
     public int asteroidPoolSize = 3;
     public GameObject asteroidPrefab;
+    public Material[] materials;
     public float spawnRate = 4f;
     public float asteroidMin = -2.65f;
     public float asteroidMax = 2.65f;
@@ -56,6 +57,7 @@ public class AsteroidPool : MonoBehaviour
             }
 
             RandomizeMesh(currentAsteroid);
+            currentAsteroid.GetComponent<AsteroidController>().RandomizeRotationAxis();
 
             currentAsteroidIndex++;
             if (currentAsteroidIndex >= asteroidPoolSize)
@@ -73,6 +75,6 @@ public class AsteroidPool : MonoBehaviour
     void RandomizeMesh(GameObject currentAsteroid)
     {
         MeshRenderer mesh = currentAsteroid.GetComponent<MeshRenderer>();
-        mesh.material = mesh.materials[Random.Range(0, mesh.materials.Length)];
+        mesh.material = materials[Random.Range(0, materials.Length)];
     }
 }
