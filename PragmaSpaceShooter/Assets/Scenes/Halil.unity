@@ -152,6 +152,10 @@ MonoBehaviour:
   asteroidPoolSize: 3
   asteroidPrefab: {fileID: 7711067791638083901, guid: dd95077e3c304db42a9401cfb839eed0,
     type: 3}
+  materials:
+  - {fileID: 2100000, guid: 21a27482b14fc3943b274f665656ad4b, type: 2}
+  - {fileID: 2100000, guid: 5dfef3efe917a3b42b693504e51224ab, type: 2}
+  - {fileID: 2100000, guid: ee01a96ae23c3af4da10780703eff492, type: 2}
   spawnRate: 4
   asteroidMin: -2.65
   asteroidMax: 2.65
